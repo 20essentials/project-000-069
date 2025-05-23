@@ -1,30 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title PokeApi - My Example
+    link(rel="shortcut icon", href="assets/favicon.png", type="image/x-icon")
+    link(rel="stylesheet", href="style.css")
+  body
+    h2 POKEMONS LIST
+    .am-container
+    p.am-loader-container
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PokeApi - My Example</title>
-  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
-</head>
+    template.am-template
+      figure
+        .container-img
+          img
+        figcaption
 
-<body>
-  <h2>POKEMONS LIST</h2>
-  <div class="am-container"></div>
-  <p class="am-loader-container"></p>
-  
-
-  <template class="am-template">
-    <figure>
-      <div class="container-img">
-        <img>
-      </div>
-      <figcaption></figcaption>
-    </figure>
-  </template>
-
-  <script src="script.js"></script>
-</body>
-
-</html>
+    script(src="script.js")
